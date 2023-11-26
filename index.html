@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Laboratory</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="nav">
+        <div class="conteiner">
+            <div class="nav-row">
+               <a href="./index.html"><div class="logo"><strong>Case</strong> Lab</div></a> 
+               <ul class="nav-list">
+                    <li class="nav-list_item"><a href="./index.html" class="nav-list__link nav-list__link--active">Theory</a></li>
+                    <li class="nav-list_item"><a href="./skills.html" class="nav-list__link">Code</a></li>
+                    <li class="nav-list_item"><a href="./contacts.html" class="nav-list__link">TS</a></li>
+                    <button class="dark-mode-bth dark-mode-bth--active">
+                        <img src="./image/Moon.svg" alt="Dark mode" class="dark-mode-bth_icon">
+                        <img src="./image/Sun.svg" alt="Light mode" class="dark-mode-bth_icon">
+                        
+                       </button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<header class="header">
+        <div class="header_wrapper" >
+            <h1 class="header_title" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom">
+                <strong>Сайт для <em> Case  </em></strong><br>
+                Laboratory
+            </h1>
+            <div class="header_text" data-aos="fade-down">
+                <p>скачать материал</p>
+            </div>
+            <a href="./task.odt"class="bth" data-aos="zoom-out" download="">Download</a>
+        </div>
+</header>
+
+<main class="section">
+    <div class="conteiner">
+
+        <h1 class="title-1" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">Theory</h1>
+
+        <ul class="content-list">
+            <li class="content-list_itme">
+                <h2 class="title-2">Бинарное дерево</h2>
+        <p>Теоретическое определение бинарного дерева: 
+            Бинарное дерево - это дерево, в котором каждый узел может иметь не более двух потомков. Каждый узел содержит некоторое значение и может хранить ссылки на своих потомков - левого и правого, которые также являются бинарными деревьями.<br>
+            Пример бинарного дерева:<br><br>
+            </p>
+
+            <img src="./image/bn.jpg" data-aos="zoom-out alt="">
+
+            </li>
+            <li class="content-list_itme">
+                <h2 class="title-2"></h2>
+        <p><strong>Бинарное дерево имеет несколько основных операций, которые позволяют работать с ним:</strong><br>
+            <strong>Вставка</strong>  – добавление нового узла в дерево. Новый узел может быть добавлен как левым, так и правым потомком существующего узла, в зависимости от условий, которые задаются при выполнении операции вставки.<br>
+            <strong>Удаление</strong> – удаление узла из дерева. При удалении узла, его потомки (если они существуют) становятся потомками его родителя.<br>
+            <strong>Поиск</strong> – поиск узла в дереве. Поиск может быть реализован как рекурсивным, так и итеративным способом.<br>
+            <strong>Обход</strong> – обход дерева с целью выполнения определенных операций над его узлами. В зависимости от порядка обхода, результат операции может быть различным.<br><br>
+
+            Бинарные деревья широко применяются в алгоритмах, таких как поиск, сортировка и обход графа. В различных задачах бинарное дерево может быть использовано для эффективного хранения и обработки данных.<br><br>
+
+            Одним из наиболее часто используемых типов бинарного дерева является двоичное дерево поиска (Binary Search Tree, BST). В этом типе деревьев каждый узел содержит значение, которое является уникальным ключом для поиска и сортировки элементов. Узлы в BST располагаются таким образом, чтобы ключи слева от узла были меньше его значения, а справа – больше.<br><br>
+
+            Бинарные деревья являются эффективными структурами данных, так как время выполнения операций (вставка, удаление, поиск) в них обычно пропорционально высоте дерева, а не числу узлов. Однако, в худшем случае, дерево может быть несбалансированным и иметь высоту, равную числу узлов, что может существенно снизить эффективность операций.
+            В заключении, бинарное дерево – это важная структура данных, которая находит применение во многих областях программирования и алгоритмов. Знание работы с ним позволяет разработчикам эффективно решать различные задачи, связанные с хранением и обработкой данных. 
+            
+            </p>
+            </li>
+        </ul>
+
+
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="conteintr">
+        <div class="footer_wrapper">
+            <ul class="social">
+            <li class="social_item"><a href="https://vk.com/litovik"><img src="./image/vk.svg" alt=""></a></li>
+            <li class="social_item"><a href="https://t.me/LastJoudas"><img src="./image/telegram.svg" alt=""></a></li>
+            <li class="social_item"><a href="https://github.com/Litovic3253?tab=repositories"><img src="./image/gitHub.svg" alt=""></a></li>
+        </ul>
+        <div class="copyright">
+            <p>© 2023 CaseLaboratory.com</p>
+        </div>
+    </div>
+</div>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./js/main.js"></script>
+
+</body>
+</html>
